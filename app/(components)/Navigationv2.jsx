@@ -41,14 +41,14 @@ export default function Navigationv2() {
   return (
     <div className="md:flex flex-row justify-around pl-4 pr-4 md:pl-0 md:pt-4 md:pr-0 items-center bg-transparent z-[100]">
       <div className="md:block flex justify-between items-center my-1">
-        <div className="flex items-center">
+        <div className="flex items-center pt-4 md:p-0">
           <img
             src="/PreMedLogo.svg"
             alt="logo"
             className="h-12 md:h-12 hover:transform hover:scale-110 transition duration-300 cursor-pointer"
           />
         </div>
-        <div className="md:block flex justify-end items-center gap-4">
+        <div className="md:block flex justify-end items-center gap-4 pt-2 md:p-0">
           {isMobile && (
             <div className="md:hidden block justify-center">
               <MenuIcon
@@ -86,11 +86,13 @@ export default function Navigationv2() {
             Our Team
           </div>
         </NavigationMenu>
-        <button className="md:hidden bg-[#EC5863] font-bold text-md text-white px-4 py-2 rounded hover:bg-[#EC5863]/50 transition duration-300">
+        <button className="md:hidden bg-[#EC5863] font-bold text-md text-white px-4 py-2 rounded hover:bg-[#EC5863]/50 transition duration-300"           onClick={() => window.open("https://wa.link/4xbyq3")}
+        >
         Book a Demo
       </button>
       </div>
-      <button className="hidden md:block bg-[#EC5863] font-bold text-md text-white px-4 py-2 rounded hover:bg-[#EC5863]/50 transition duration-300">
+      <button className="hidden md:block bg-[#EC5863] font-bold text-md text-white px-4 py-2 rounded hover:bg-[#EC5863]/50 transition duration-300"           onClick={() => window.open("https://wa.link/4xbyq3")}
+      >
         Book a Demo
       </button>
 

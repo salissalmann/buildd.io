@@ -66,7 +66,8 @@ export default function Home() {
           <div className="text-center text-white text-3xl md:text-7xl font-bold mt-8">What We Offer?</div>
           <div className="w-[75%] md:w-1/2 mx-auto text-center text-white text-md md:text-2xl font-normal mt-4">From captivating landing pages to dynamic content management systems, and lead generation, our team of expert developers and designers creates unforgettable digital experiences. Let's turn your vision into reality!</div>
           <div className="flex flex-row items-center justify-center gap-4 mt-2">
-            <button className="mt-8 bg-[#EC5863] font-bold text-md text-white shadow px-8 py-2 rounded-lg hover:bg-[#EC5863]/50 transition duration-300">Book a Call</button>
+            <button className="mt-8 bg-[#EC5863] font-bold text-md text-white shadow px-8 py-2 rounded-lg hover:bg-[#EC5863]/50 transition duration-300"           onClick={() => window.open("https://wa.link/4xbyq3")}
+            >Book a Call</button>
           </div>
         </MotionDiv>
       </div>
@@ -167,7 +168,7 @@ export default function Home() {
           <div className="flex flex-col gap-2 md:w-1/2 mt-4 md:mt-0">
             <div className="flex flex-col border rounded p-1 px-2 border-gray-200">
               <div className="text-gray-200 font-bold">YOUR NAME</div>
-              <input type="text" className="text-white border-none bg-transparent focus:border-none" placeholder="Fahd Niaz Sheikh" />
+              <input type="text" className="text-white border-none bg-transparent focus:border-none" placeholder="Alex Martin" />
             </div>
             <div className="flex flex-col border rounded p-1 px-2 border-gray-200">
               <div className="text-gray-200 font-bold">PHONE NUMBER</div>
@@ -175,7 +176,7 @@ export default function Home() {
             </div>
             <div className="flex flex-col border rounded p-1 px-2 border-gray-200">
               <div className="text-gray-200 font-bold">EMAIL</div>
-              <input type="email" className="text-white border-none bg-transparent focus:border-none" placeholder="someone@xyz.com" />
+              <input type="email" className="text-white border-none bg-transparent focus:border-none" placeholder="alex@xyz.com" />
             </div>
             <div className="flex flex-row items-start justify-start gap-4 mt-2">
               <button className="bg-[#EC5863] font-bold text-md text-white shadow px-8 py-2 rounded-md hover:bg-[#EC5863]/50 transition duration-300">Submit Request</button>
@@ -186,7 +187,7 @@ export default function Home() {
 
       </div>
 
-      <div className="grid grid-cols-2 lg:grid-cols-3 gap-x-4 w-[80%] mx-auto relative -mt-[14rem]">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-x-4 w-[80%] mx-auto relative -mt-[14rem]">
         <div className="flex items-center relative justify-center gap-x-2 -ml-4 mt-5 ">
           <img
             className="w-14 h-14 md:w-24 md:h-24"
@@ -250,7 +251,7 @@ export default function Home() {
 
       <div className="w-[75%] mx-auto text-center font-bold text-white text-4xl md:text-6xl mt-14">Most Decorated<br />Startup of Pakistan</div>
 
-      <div className="grid grid-cols-2 lg:grid-cols-2 gap-x-2 md:w-[50%] mx-auto relative mt-10">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-2 md:w-[50%] mx-auto relative mt-10">
         <div className="flex items-center relative justify-center gap-x-2 -ml-4 mt-5 ">
           <img
             className="w-14 h-14 md:w-24 md:h-24"
@@ -307,7 +308,9 @@ const Header = () => {
         <h1 className="text-2xl md:text-5xl font-bold text-white">Let Pre<span className="text-[#EC5863]">M</span>ed Design Your Next</h1>
         <h1 className="text-3xl md:text-8xl z-10 font-extrabold text-white">AWESOME PRODUCT</h1>
 
-        <button className="mt-4 md:mt-8 w-fit bg-[#EC5863] font-bold text-md text-white px-4 py-2 rounded-lg shadow hover:bg-[#EC5863]/50 transition duration-300">
+        <button className="mt-4 md:mt-8 w-fit bg-[#EC5863] font-bold text-md text-white px-4 py-2 rounded-lg shadow hover:bg-[#EC5863]/50 transition duration-300"
+          onClick={() => window.open("https://wa.link/4xbyq3")}
+        >
           Book a Demo
         </button>
 
